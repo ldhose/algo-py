@@ -1,3 +1,8 @@
+def test_selection_sort():
+    elements = [3,3,2, 5,1,7,9, 8]
+    print(selection_sort(elements))
+    print(selection_sort_book(elements))
+
 def selection_sort(elements):
     smallest = elements[0]
     for i in range(0, len(elements)):
